@@ -1,0 +1,285 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Radio+Canada&family=Raleway:wght@300;400&family=Tapestry&display=swap');
+
+html,body{
+	padding: 0;
+	margin: 0;
+}
+
+body{
+	background-color: rgb(0,0,0,0.4);
+	
+}
+/********* HEADER PART ***********/
+.container-fluid header h1{
+	color: rgb(255,255,0);
+	font-size: 70px;
+	font-family: 'Raleway',"cursive;";
+	font-weight: bold;
+	margin: 20px;
+}
+
+
+
+.main-menu{
+	/*background: pink;*/
+	padding: 10px;
+}
+
+.container .main-menu li{
+	padding-left: 10px;
+	padding-right: 10px;
+
+}
+
+.container .main-menu li a{
+	color: white;
+	text-decoration: none;
+	margin-left: 0;
+	text-align: left;
+}
+
+/*
+.container .main-menu li:hover{
+	border: 3px solid rgb(255,255,0);
+}*/
+
+.container .main-menu li a:hover{
+	color: rgb(255,255,0);
+	/*font-weight: bold;*/
+}
+
+header p{
+	height: 50px;
+	display: flex;
+	flex-direction: column;
+    justify-content: flex-end;
+}
+
+
+/********* YALE INFO PART ***********/
+.container{
+	margin-bottom: 50px;
+}
+
+
+.yaleDetails {
+background: linear-gradient(281deg, rgba(255,243,60,1) 57%, rgba(255,253,234,1) 79%);
+}
+
+.frow-col{
+	/*border: 2px solid black;*/
+	margin-top: 50px;
+	padding: 20px;
+}
+
+/****** FORM SECTION ****/
+
+
+.yaledetails-Div .row .frow-col2{
+	border-radius: 20px;
+	box-shadow: 5px 10px;
+}
+
+
+
+form label{
+	/*border: 1px solid black;*/
+	height: 30px;
+	font-size: 18px;
+	color: #000;
+	font-family: "Raleway",sans-serif;
+}
+
+form input{
+	height: 30px;
+	font-size: 14px;
+	margin-bottom: 15px;
+	width: 300px;
+	color: #000;
+	border: none;
+	border-bottom: 1px solid yellow;
+	border-radius: 5px;
+	font-family: "Raleway",sans-serif;
+
+}
+
+form textarea{
+	height: 150px;
+	font-size: 14px;
+	width: 300px;
+	color: #000;
+	border: none;
+	border-bottom: 1px solid yellow;
+	border-radius: 5px;
+	font-family: "Raleway",sans-serif;
+	margin-bottom: 15px;
+}
+
+form input[type="submit"]{
+	font-weight: bold;
+	background: linear-gradient(281deg, rgba(255,243,60,1) 57%, rgba(255,253,234,1) 79%);
+	opacity: 80%;
+}
+
+form input[type="submit"]:hover{
+	opacity: 100%;
+}
+
+/** Form col 2*/
+.frow-col2 h2{
+	text-align: center;
+	margin: 10px;
+	color: #000;
+	font-family: "Raleyway",sans-serif;
+	font-weight: bold;
+}
+
+.frow-col2 p img{
+	width: 30px;
+	height: 30px;
+}
+
+.frow-col2 p a{
+	text-decoration: none;
+	color: #000;
+}
+
+.frow-col2 p a:hover{
+	color: darkblue;
+}
+
+.frow-col2 p span{
+	margin-right: 20px;
+}
+
+
+
+
+
+
+
+
+
+/*   ORANGE SIDE BAR */
+aside{
+	margin-left: 20px;
+	background-color: #ff6e01;
+	padding: 5px;
+	font-size: 13px;
+	height: 100%;
+	width: 200px;
+}
+
+
+
+
+/***************FOOTER***********/
+footer{
+	background-color: rgb(0,0,0,0.2);
+	padding: 0;
+}
+
+footer .row .col-md-3{
+	height: 250px;
+	/*border: 1px solid black;*/
+	text-align: center;
+}
+
+footer .moreLink-text{
+	margin: 10px;
+}
+
+footer .yale-text{
+	font-size: 13px;
+}
+
+footer p{
+	max-height: 20px;
+}
+
+footer .footer-hr{
+	width: 100%;
+	height: 2px;
+	background-color: #000;
+}
+
+footer .buttonDiv{
+	display: flex;
+	justify-content: center;
+}
+
+footer .buttonDiv h5{
+	display: flex;
+	justify-content: center;
+	line-height: 60px;
+}
+
+footer div .buttontext{
+	min-height: 50px;
+	width: 200px;
+	background-color: rgb(255,0,0,0.7);
+	border-radius: 20px;
+	margin: 10px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+footer div .buttontext:hover{
+	background-color: rgb(255,0,0,1);
+}
+
+footer .moreLink-text{
+	margin-left: 15%;
+}
+
+
+footer ul{
+	list-style: square inside;
+}
+
+footer ul li a{
+	color: #fff;
+	text-decoration: none;
+	font-size: 13px;
+}
+
+footer ul li {
+	padding: 10px;
+	color: rgb(0, 0, 255,0.8);
+
+}
+
+footer ul li a:hover{
+	color: rgb(0, 0, 255,0.8);
+}
+
+/***** FOOTER ICON ******/
+
+footer .sm-Div{
+	display: flex;
+	justify-content: center;
+}
+
+.sm-menu{
+	list-style: none;
+}
+
+.sm-menu li{
+	display: inline;
+	padding: 40px;
+}
+
+.sm-menu li a img:hover{
+	background-color: #fff;
+	border-radius: 50%;
+}
+
+.Copyright-text{
+	width: 100%;
+	min-height: 50px;
+	text-align: center;
+	line-height: 50px;
+	background-color: rgb(0,0,0,0.9);
+	color: #fff;
+}

@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Contact Us</title>
+
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+	<link rel="stylesheet" href="ContactUs.css">
+
+	<!-- JQUERY GALLERY PLUG IN -->
+	<link href="gallery-plugin/dist/simple-lightbox.min.css" rel="stylesheet" />
+	<!-- As A Vanilla JavaScript Plugin -->
+	<script src="gallery-plugin/dist/simple-lightbox.min.js"></script>
+	<!-- For legacy browsers -->
+	<script src="gallery-plugin/dist/simple-lightbox.legacy.min.js"></script>
+	<!-- As A jQuery Plugin -->
+  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+	<script src="gallery-plugin/dist/simple-lightbox.jquery.min.js"></script>
+
+</head>
+<body>
+  <!--HEADER PART-->
+  <div class="container-fluid bg-dark head-Div">
+    <header class="container p-5 bg-dark text-white">
+    <img src="img/yale-logo.jpg" alt="logo" style="width: 120px;height: 120px;float: left;margin: 20px;">
+    <h1>YALE SCHOOL OF ART</h1>
+    <br><br>
+      <nav>
+        <ul class="nav nav-tabs main-menu">
+          <li class="nav-item"><a class="nav-link" href="homepage.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="about-the-school.html">About the School</a></li>
+          <li class="nav-item"><a class="nav-link" href="apply-school.html">Apply to the School</a></li>
+          <li class="nav-item"><a class="nav-link" href="exhibition.html">Exhibitions</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Publications</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">News</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Public Events</a></li>
+          <li class="nav-item"><a class="nav-link active" href="ContactUs.html">Contact Us</a></li>
+
+
+        </ul>
+      </nav>
+      <p class="text-start">Yale School of Art 1156 Chapel Street, POB 208339 New Haven, Connecticut, 06520-8339</p>
+    </header>
+  </div>
+
+  <!-- YALE DETAILS -->
+
+  <div class="container yaledetails-Div">
+    <div class="row first-row">
+      <div class="col-md-3 frow-col1 text-white">
+        <form>
+            <br>
+            <label for="fname" class="info">Firstname</label><br>
+            <input type="text" id="fname" name="fname" required placeholder="Please Enter your Firstname" class="input">
+            <br>
+            <label for="lname" class="info">Lastname</label><br>
+            <input type="text" id="lname" maxlength= "10" required size="10" placeholder="Please Enter you Lastname" class="input">
+            <br>
+            <label for="email" class="info">Email*</label><br>
+            <input type="email" name="email" id="email" required placeholder="Enter your Email" class="input">
+            <br>
+            <label for="subject" class="info">Subject</label><br>
+            <input type="text" id="subject" name="subject"  placeholder="Please Enter the Subject" class="input">
+            <br>
+            <label for="message" class="info">Message</label><br>
+            <textarea name="message" id="message" placeholder="Your message here..."></textarea>
+            <br>
+            <input type="submit" name="submit" value="Submit">
+
+
+       </form> 
+      </div>
+      <div class="col-md-4 yaleDetails frow-col2 ">
+        <h2>Contact Us</h2>
+        <h4>Question? Send us a message ..</h4>
+        <p>We are here to help and answera all your question you might have.<p>
+        <br><br>
+        <p><a href="https://www.google.com/maps/place/Yale+School+of+Art/@41.3084392,-72.9329028,15z/data=!4m12!1m6!3m5!1s0x0:0x9498d8b81e55fcaf!2sYale+School+of+Art!8m2!3d41.3084392!4d-72.9329028!3m4!1s0x0:0x9498d8b81e55fcaf!8m2!3d41.3084392!4d-72.9329028" target="_blank"><span><img src="contact-icon/location.gif" alt="location icon"></span>1156 Chapel St, New Haven, CT 06511, United States</a></p>
+        <br><br>
+        <p><a  href="tel:1203-432-2600" target="_blank"><span><img src="contact-icon/callus.gif" alt="phone icon"></span>+1 203-432-2600</a></p>
+        <br><br>
+        <p><a href="mailto:art.admissions@yale.edu" target="_blank"><span><img src="contact-icon/email.gif" alt="email icon"></span>art.admissions@yale.edu</a></p>
+      </div>
+      <div class="col-md-4 frow-col3" style="padding: 0; display: flex;justify-content: right;" >
+          <aside>
+            <p >This website exists as an ongoing collaborative experiment in digital publishing and information sharing. Because this website functions as a wiki, all members of the School of Art community—graduate students, faculty, staff, and alums—have the ability to add new content and pages, and to edit most of the site’s existing content.
+              <br>
+          Content is the property of its various authors. When you contribute to this site, you agree to abide by Yale University academic and network use policy, and to act as a responsible member of our community.</p>
+          </aside>
+      </div>
+
+      </div>
+    </div>
+
+
+
+          <!-- Footer -->
+  <footer class="container text-white">
+    <div class="row">
+        <div class="col-md-3">
+              <img src="img/yale-logo.jpg" alt="logo" style="width: 80px;height: 80px;margin: 20px;">
+              <br>
+              <p class="yale-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+              tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+              quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+              consequat.</p>
+        </div>
+        <div class="col-md-3">
+          <p class="moreLink-text">Related Links:</p>
+          <ul >
+            <li ><a  href="#">New Link 1</a></li>
+            <li ><a  href="#">New Link 2</a></li>
+            <li ><a  href="#">New Link 3</a></li>
+            <li ><a  href="#">New Link 4</a></li>
+          </ul></div>
+        <div class="col-md-3">          
+          <p class="moreLink-text">Related Links:</p>
+          <ul >
+            <li ><a  href="#">New Link 1</a></li>
+            <li ><a  href="#">New Link 2</a></li>
+            <li ><a  href="#">New Link 3</a></li>
+            <li ><a  href="#">New Link 4</a></li>
+          </ul></div>
+        <div class="col-md-3">          
+          <p class="moreLink-text">Related Links:</p>
+          <ul >
+            <li ><a  href="#">New Link 1</a></li>
+            <li ><a  href="#">New Link 2</a></li>
+            <li ><a  href="#">New Link 3</a></li>
+            <li ><a  href="#">New Link 4</a></li>
+          </ul></div>
+    </div>
+    <br>
+    <hr class="footer-hr">
+    <br>
+    <div class="buttonDiv" >
+      <h5>CONTACT US </h5>
+      <p class="buttontext"><a href="ContactUs.html" style="text-decoration: none; color: #000;">SIGN UP</a></p>
+    </div>
+    <br>
+    <hr class="footer-hr">
+    <br>
+    <div class="sm-Div">
+    <ul class="sm-menu">
+      <li><a href="https://www.facebook.com/YaleSchoolofArt/" target="_blank"><img src="img/facebook-icon.png" alt="facebook icon" style="width: 40px; height: 40px;"></a></li>
+      <li><a href="https://twitter.com/yaleschoolofart" target="_blank"><img src="img/twitter-icon.png" alt="twitter icon" style="width: 40px; height: 40px;"></a></li>
+      <li><a href="https://www.youtube.com/channel/UCDwJT0mYodTSodcpH-hGmdA" target="_blank"><img src="img/youtube-icon.png" alt="youtube icon" style="width: 40px; height: 40px;"></a></li>
+      <li><a href="https://www.instagram.com/yaleschoolofart/" target="_blank"><img src="img/instagram-icon.png" alt="instagram icon" style="width: 40px; height: 40px;"></a></li>
+    </ul>
+    </div>
+    <p class="Copyright-text">Copyright ©2022 Yale University<b style="color: #FFE300;"> - Design: Juyan Runatay</b></p>
+
+  </footer>
+
+
+	
+
+	
+</body>
+</html>

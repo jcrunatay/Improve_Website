@@ -1,0 +1,309 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Radio+Canada&family=Raleway:wght@300;400&family=Tapestry&display=swap');
+
+html,body{
+	padding: 0;
+	margin: 0;
+}
+
+body{
+	background-color: rgb(0,0,0,0.4);
+	
+}
+/********* HEADER PART ***********/
+.container-fluid header h1{
+	color: rgb(255,255,0);
+	font-size: 70px;
+	font-family: 'Raleway',"cursive;";
+	font-weight: bold;
+	margin: 20px;
+}
+
+.main-menu{
+	/*background: pink;*/
+	padding: 10px;
+}
+
+.container .main-menu li{
+	padding-left: 10px;
+	padding-right: 10px;
+
+}
+
+.container .main-menu li a{
+	color: white;
+	text-decoration: none;
+	margin-left: 0;
+	text-align: left;
+}
+
+/*
+.container .main-menu li:hover{
+	border: 3px solid rgb(255,255,0);
+}*/
+
+.container .main-menu li a:hover{
+	color: rgb(255,255,0);
+	/*font-weight: bold;*/
+}
+
+header p{
+	height: 50px;
+	display: flex;
+	flex-direction: column;
+    justify-content: flex-end;
+}
+
+
+/**      WELCOME PHOTO   **/
+.slider-Div{
+	padding: 0;
+	margin: 0;
+	width: 100%;
+	background-color: white;
+}
+
+.container-fluid .slider div{
+	width: 100%;
+	height: 600px;
+}
+
+.container-fluid .slider div img{
+	width: 95%;
+	height: 95%;
+	padding-top: 2.5%;
+	margin: auto;
+}
+
+
+/********* YALE INFO PART -- THINGS TO SEE IN THE PAGE***********/
+
+
+
+.yaleDetails {
+background: linear-gradient(281deg, rgba(255,243,60,1) 57%, rgba(255,253,234,1) 79%);
+}
+
+.frow-col{
+	/*border: 2px solid black;*/
+	margin-top: 50px;
+	padding: 20px;
+}
+
+
+/********** In"about this school MENU" **********/
+
+.on-this-page li{
+	padding: 10px;
+	list-style: square;
+	color: #FFE300;
+}
+
+.yaledetails-Div h2{
+	color: #FFE300;
+	font-size: 30px;
+	font-family: "Raleway",sans-serif;
+	font-weight: bold;
+	letter-spacing: 2px;
+}
+
+.on-this-page li a{
+	text-decoration-style: double;
+	color: #fff;
+}
+
+.on-this-page li a:hover{
+	color: #FFE300;
+}
+
+aside{
+	margin-left: 50px;
+	background-color: #ff6e01;
+	padding: 5px;
+	font-size: 13px;
+	height: 100%;
+	width: 200px;
+}
+
+/********** GALLERY CODE ***********/
+
+.gallery{
+	margin: 80px 50px 50px 50px;
+	/*border: 1px solid red;*/
+	text-align: center;
+}
+
+.gallery img{
+	height: 220px;
+	width: 235px;
+	margin-bottom: 5px;
+}
+
+.gallery a:hover img {
+	-webkit-transform: scale(1.05);
+	-moz-transform: scale(1.05);
+	-o-transform: scale(1.05);
+	-ms-transform: scale(1.05);
+	transform: scale(1.05);
+}
+
+
+/*RESET THE SIZE OF SOME IMAGE FOR EFFECTS */
+
+.gallery .bigger-img{
+	width: 470px;
+}
+
+
+/******* 2 Last DIV  MASTER OF FINE ARTS DEGREE && PUBLIC LECTURES AND EXHIBITIONS *********/
+
+.lastDiv{
+	padding: 0;
+	
+	/*border: 1px solid red;*/
+	margin-bottom: 50px;
+}
+
+
+.lastDiv .row{
+	display: flex;
+	justify-content: center;
+}
+
+.lastDiv .lastDiv-col1,.lastDiv .lastDiv-col2{
+	margin: 10px;
+	background: linear-gradient(281deg, rgba(255,243,60,1) 57%, rgba(255,253,234,1) 79%);
+	border: 1px solid black;
+}
+
+
+
+/******* LOCATION - GOOGLE MAP********/
+
+
+.mapDiv iframe{
+	width: 100%;
+	height: 500px;
+}
+
+.mapDiv h3, .container .gallery h3{
+	font-size: 30px;
+	font-family: "Raleyway",sans-serif;
+	margin: 10px;
+	font-weight: bold;
+	color: #FFE300;
+}
+
+
+
+
+
+/***************FOOTER***********/
+footer{
+	background-color: rgb(0,0,0,0.2);
+	padding: 0;
+}
+
+footer .row .col-md-3{
+	height: 250px;
+	/*border: 1px solid black;*/
+	text-align: center;
+}
+
+footer .moreLink-text{
+	margin: 10px;
+}
+
+footer .yale-text{
+	font-size: 13px;
+}
+
+footer p{
+	max-height: 20px;
+}
+
+footer .footer-hr{
+	width: 100%;
+	height: 2px;
+	background-color: #000;
+}
+
+footer .buttonDiv{
+	display: flex;
+	justify-content: center;
+}
+
+footer .buttonDiv h5{
+	display: flex;
+	justify-content: center;
+	line-height: 60px;
+}
+
+footer div .buttontext{
+	min-height: 50px;
+	width: 200px;
+	background-color: rgb(255,0,0,0.7);
+	border-radius: 20px;
+	margin: 10px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+footer div .buttontext:hover{
+	background-color: rgb(255,0,0,1);
+}
+
+footer .moreLink-text{
+	margin-left: 15%;
+}
+
+
+footer ul{
+	list-style: square inside;
+}
+
+footer ul li a{
+	color: #fff;
+	text-decoration: none;
+	font-size: 13px;
+}
+
+footer ul li {
+	padding: 10px;
+	color: rgb(0, 0, 255,0.8);
+
+}
+
+footer ul li a:hover{
+	color: rgb(0, 0, 255,0.8);
+}
+
+/***** FOOTER ICON ******/
+
+footer .sm-Div{
+	display: flex;
+	justify-content: center;
+}
+
+.sm-menu{
+	list-style: none;
+}
+
+.sm-menu li{
+	display: inline;
+	padding: 40px;
+}
+
+.sm-menu li a img:hover{
+	background-color: #fff;
+	border-radius: 50%;
+}
+
+.Copyright-text{
+	width: 100%;
+	min-height: 50px;
+	text-align: center;
+	line-height: 50px;
+	background-color: rgb(0,0,0,0.9);
+	color: #fff;
+}

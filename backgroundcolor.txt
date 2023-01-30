@@ -1,0 +1,4 @@
+project gradient color bg..
+(white / yellow)
+bbackground: rgb(255,243,60);
+background: linear-gradient(281deg, rgba(255,243,60,1) 57%, rgba(255,253,234,1) 79%);
