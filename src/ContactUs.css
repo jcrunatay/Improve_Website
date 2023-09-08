@@ -1,4 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Anton&family=Radio+Canada&family=Raleway:wght@300;400&family=Tapestry&display=swap');
 
 html,body{
 	padding: 0;
@@ -56,28 +55,7 @@ header p{
 }
 
 
-/**      WELCOME PHOTO   **/
-.slider-Div{
-	padding: 0;
-	margin: 0;
-	width: 100%;
-	background-color: white;
-}
-
-.container-fluid .slider div{
-	width: 100%;
-	height: 600px;
-}
-
-
-.container-fluid .slider div img{
-	width: 100%;
-	height: 100%;
-	margin: auto;
-}
-
-
-/********* YALE INFO PART -- THINGS TO SEE IN THE PAGE***********/
+/********* YALE INFO PART ***********/
 .container{
 	margin-bottom: 50px;
 }
@@ -93,35 +71,97 @@ background: linear-gradient(281deg, rgba(255,243,60,1) 57%, rgba(255,253,234,1) 
 	padding: 20px;
 }
 
-/********** In"about this school MENU" **********/
+/****** FORM SECTION ****/
 
-.on-this-page li{
-	padding: 10px;
-	list-style: square;
-	color: #FFE300;
+
+.yaledetails-Div .row .frow-col2{
+	border-radius: 20px;
+	box-shadow: 5px 10px;
 }
 
-.yaledetails-Div h2{
-	color: #FFE300;
-	font-size: 30px;
+
+
+form label{
+	/*border: 1px solid black;*/
+	height: 30px;
+	font-size: 18px;
+	color: #000;
 	font-family: "Raleway",sans-serif;
+}
+
+form input{
+	height: 30px;
+	font-size: 14px;
+	margin-bottom: 15px;
+	width: 300px;
+	color: #000;
+	border: none;
+	border-bottom: 1px solid yellow;
+	border-radius: 5px;
+	font-family: "Raleway",sans-serif;
+
+}
+
+form textarea{
+	height: 150px;
+	font-size: 14px;
+	width: 300px;
+	color: #000;
+	border: none;
+	border-bottom: 1px solid yellow;
+	border-radius: 5px;
+	font-family: "Raleway",sans-serif;
+	margin-bottom: 15px;
+}
+
+form input[type="submit"]{
 	font-weight: bold;
-	letter-spacing: 2px;
+	background: linear-gradient(281deg, rgba(255,243,60,1) 57%, rgba(255,253,234,1) 79%);
+	opacity: 80%;
 }
 
-.on-this-page li a{
-	text-decoration-style: double;
-	color: #fff;
+form input[type="submit"]:hover{
+	opacity: 100%;
 }
 
-.on-this-page li a:hover{
-	color: #FFE300;
+/** Form col 2*/
+.frow-col2 h2{
+	text-align: center;
+	margin: 10px;
+	color: #000;
+	font-family: "Raleyway",sans-serif;
+	font-weight: bold;
 }
+
+.frow-col2 p img{
+	width: 30px;
+	height: 30px;
+}
+
+.frow-col2 p a{
+	text-decoration: none;
+	color: #000;
+}
+
+.frow-col2 p a:hover{
+	color: darkblue;
+}
+
+.frow-col2 p span{
+	margin-right: 20px;
+}
+
+
+
+
+
+
+
 
 
 /*   ORANGE SIDE BAR */
 aside{
-	margin-left: 50px;
+	margin-left: 20px;
 	background-color: #ff6e01;
 	padding: 5px;
 	font-size: 13px;
@@ -129,102 +169,8 @@ aside{
 	width: 200px;
 }
 
-/****** ***********/
 
 
-.GD-Div .row{
-		display: flex;
-		justify-content: right;
-}
-
-.GD-Div h3, .visiting-Div h3, .slider-Div h3{
-	font-size: 25px;
-	font-family: "Raleway",sans-serif;
-	margin: 20px;
-	font-weight: bold;
-	color: #FFE300;
-
-}
-
-.GD-Div .row .col-md-4,.GD-Div .row .col-md-7{
-		height: 450px;
-		/*border: 1px solid black;*/
-}
-
-.GD-Div .row .col-md-7{
-	padding: 0;
-}
-
-.GD-Div .row .col-md-7 img{
-		width: 100%;
-		height: 100%;
-}
-
-.GD-Div .row .col-md-4 p{
-		font-size: 13px;
-		text-align: justify;
-		color: #000;
-}
-
-/*********** VISITING SECTION*************/
-
-
-
-.visiting-Div .row .col-md-6 p{
-	margin-left: 15%;
-}
-
-.visiting-Div .see-also-text{
-	background-color: orange;
-}
-
-
-
-/****** IMAGE DIV -- PAST EXHIBITIONS *****/
-.slider-Div{
-	padding: 0;
-	margin: auto;
-	width: 100%;
-	background: transparent;
-}
-
-.container .slider div{
-	width: 100%;
-	height: 500px;
-
-}
-
-.container .slider div img{
-	width: 100%;
-	height: 100%;
-}
-
-.container .slider div h5{
-
-	font-family: "Raleway",sans-serif;
-	text-align: center;
-}
-
-
-/**********EXHIBIT VIDEO*********/
-
-.video-Div h3 {
-	font-size: 25px;
-	font-family: "Raleway",sans-serif;
-	font-weight: bold;
-	color: #FFE300;
-}
-
-.video-Div div{
-	display: flex;
-	justify-content: center;
-}
-
-
-.video-Div video {
-	width: 800px;
-	height: 500px;
-}
 
 /***************FOOTER***********/
 footer{
